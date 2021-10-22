@@ -1,0 +1,122 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.margin-left-10px {
+    margin-left: 10px;
+}
+
+header {
+    width: 100%;
+    
+    height: 70px;
+    background-color: cadetblue;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    position: absolute;
+    top: 70px;
+    height: calc(100vh - 140px); 
+
+    background-color:black;
+    
+}
+
+.user {
+    width: 250px;
+    height: 150px;
+    background-image: url(../img/image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 3px;
+    display: flex;
+}
+
+.user-icon {
+    
+}
+
+
+
+/* FOOTER */
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    background-color: #222222;
+    color: white;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* BOTTOM BAR  LEFT*/
+.left {
+    display: flex;
+    align-items: center;
+}
+
+/* BOTTOM BAR CENTER */
+.center {
+    display: flex;
+    align-items: center;
+}
+
+/* BOTTOM BAR RIGHT */
+.right {
+    display: flex;
+    align-items: center;
+    background-color: #4a4a4a;
+    color: red;
+    padding: 10px;
+}
+
+
+/* Container Icons */
+.icon-container {
+    display: flex; 
+    margin-left: 10px;
+}
+
+.icon {
+    text-align: center;
+}
+
+.green {
+    color: #4bc800;
+}
+
+
+/* ICONA FRECCIA VERSO L'ALTO */
+.arrow {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
